@@ -1,13 +1,13 @@
  # Iremos iniciar acessando o site que iremos atacar = http://192.168.56.104/dvwa/login.php
 
-Ao clicar F12 dentro do site, conseguirá visualizar os Post e Get onde foi adicionado o login e senha do site
+Ao clicar F12 dentro do site, conseguirá visualizar os Post e Get onde foi adicionado o login e senha no fomrulário do site
 
 
-![Python](/imagens2/img20.png)
+![Python](/imagens2/img22.png)
 
 
-Como criamos as wordlist na etapa anterior, não será necessário criar agora, mas em um ataque real, você poderá incluir varias combinações através do 
-- script " echo -e "user\nmsfadmin\nadmin\nroot" > users.txt"
+Como criamos as wordlist na etapa anterior, não será necessário criar agora, mas em um ataque real, você poderá incluir varias combinações através do script 
+-  " echo -e "user\nmsfadmin\nadmin\nroot" > users.txt"
 
 # Para iniciar o ataque utilize o seguinte comando:
 
@@ -18,7 +18,7 @@ Como criamos as wordlist na etapa anterior, não será necessário criar agora, 
 
 O primeiro a retornar "sucesso" será o acesso correto e conseguirá acessar o site em questão:
 
-![Python](imagens/img21.png)
+![Python](/imagens2/img20.png)
 
 [def]: imagens/img20.png
 [def2]: /workspaces/Lab-Atack-Brute-force/imagens/img20.png

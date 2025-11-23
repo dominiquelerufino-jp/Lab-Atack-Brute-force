@@ -3,7 +3,7 @@
 Ao clicar F12 dentro do site, conseguirá visualizar os Post e Get onde foi adicionado o login e senha do site
 
 
-![Python](/workspaces/Lab-Atack-Brute-force/imagens/img20.png)
+![Python](/imagens2/img20.png)
 
 
 Como criamos as wordlist na etapa anterior, não será necessário criar agora, mas em um ataque real, você poderá incluir varias combinações através do 
@@ -18,7 +18,7 @@ Como criamos as wordlist na etapa anterior, não será necessário criar agora, 
 
 O primeiro a retornar "sucesso" será o acesso correto e conseguirá acessar o site em questão:
 
-![Python](/workspaces/Lab-Atack-Brute-force/imagens/img21.png)
+![Python](imagens/img21.png)
 
 [def]: imagens/img20.png
 [def2]: /workspaces/Lab-Atack-Brute-force/imagens/img20.png
